@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/base/array.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/base/float.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/base/main1.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/base/malloc.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/base/method.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/base/pointer.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/base/pointer2.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/base/pointerAndConst.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/datastructure/sqList.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/datastructure/sqList2.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/datastructure/sqList3.c" charset="GBK" />
+  </component>
+</project>
