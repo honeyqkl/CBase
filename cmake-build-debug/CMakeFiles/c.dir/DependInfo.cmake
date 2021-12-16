@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "D:/project/c/hello/datastructure/BinarySearch.c" "D:/project/c/cmake-build-debug/CMakeFiles/c.dir/hello/datastructure/BinarySearch.c.obj"
+  "D:/project/c/hello/datastructure/QuickSort.c" "D:/project/c/cmake-build-debug/CMakeFiles/c.dir/hello/datastructure/QuickSort.c.obj"
   "D:/project/c/main.c" "D:/project/c/cmake-build-debug/CMakeFiles/c.dir/main.c.obj"
   "D:/project/c/test01.c" "D:/project/c/cmake-build-debug/CMakeFiles/c.dir/test01.c.obj"
   )

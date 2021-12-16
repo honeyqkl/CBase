@@ -72,6 +72,10 @@ CMAKE_BINARY_DIR = D:\project\c\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/c.dir/all
+all: CMakeFiles/main.dir/all
+all: CMakeFiles/base.dir/all
+all: CMakeFiles/t2018-28.dir/all
+all: CMakeFiles/linkedList2.dir/all
 
 .PHONY : all
 
@@ -82,6 +86,10 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/c.dir/clean
+clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/base.dir/clean
+clean: CMakeFiles/t2018-28.dir/clean
+clean: CMakeFiles/linkedList2.dir/clean
 
 .PHONY : clean
 
@@ -92,12 +100,12 @@ clean: CMakeFiles/c.dir/clean
 CMakeFiles/c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make CMakeFiles/c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make CMakeFiles/c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\project\c\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\project\c\cmake-build-debug\CMakeFiles --progress-num=4,5,6,7,8 "Built target c"
 .PHONY : CMakeFiles/c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\c\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\c\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\c\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/c.dir/rule
@@ -111,6 +119,114 @@ c : CMakeFiles/c.dir/rule
 CMakeFiles/c.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make CMakeFiles/c.dir/clean
 .PHONY : CMakeFiles/c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main.dir
+
+# All Build rule for target.
+CMakeFiles/main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\project\c\cmake-build-debug\CMakeFiles --progress-num=11,12,13 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\c\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\c\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: CMakeFiles/main.dir/rule
+
+.PHONY : main
+
+# clean rule for target.
+CMakeFiles/main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/base.dir
+
+# All Build rule for target.
+CMakeFiles/base.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\base.dir\build.make CMakeFiles/base.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\base.dir\build.make CMakeFiles/base.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\project\c\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target base"
+.PHONY : CMakeFiles/base.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/base.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\c\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/base.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\c\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/base.dir/rule
+
+# Convenience name for target.
+base: CMakeFiles/base.dir/rule
+
+.PHONY : base
+
+# clean rule for target.
+CMakeFiles/base.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\base.dir\build.make CMakeFiles/base.dir/clean
+.PHONY : CMakeFiles/base.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/t2018-28.dir
+
+# All Build rule for target.
+CMakeFiles/t2018-28.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2018-28.dir\build.make CMakeFiles/t2018-28.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2018-28.dir\build.make CMakeFiles/t2018-28.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\project\c\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target t2018-28"
+.PHONY : CMakeFiles/t2018-28.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/t2018-28.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\c\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/t2018-28.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\c\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/t2018-28.dir/rule
+
+# Convenience name for target.
+t2018-28: CMakeFiles/t2018-28.dir/rule
+
+.PHONY : t2018-28
+
+# clean rule for target.
+CMakeFiles/t2018-28.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\t2018-28.dir\build.make CMakeFiles/t2018-28.dir/clean
+.PHONY : CMakeFiles/t2018-28.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/linkedList2.dir
+
+# All Build rule for target.
+CMakeFiles/linkedList2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList2.dir\build.make CMakeFiles/linkedList2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList2.dir\build.make CMakeFiles/linkedList2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\project\c\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target linkedList2"
+.PHONY : CMakeFiles/linkedList2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/linkedList2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\c\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/linkedList2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\c\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/linkedList2.dir/rule
+
+# Convenience name for target.
+linkedList2: CMakeFiles/linkedList2.dir/rule
+
+.PHONY : linkedList2
+
+# clean rule for target.
+CMakeFiles/linkedList2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedList2.dir\build.make CMakeFiles/linkedList2.dir/clean
+.PHONY : CMakeFiles/linkedList2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

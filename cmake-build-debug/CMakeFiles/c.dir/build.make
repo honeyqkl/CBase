@@ -78,44 +78,74 @@ include CMakeFiles/c.dir/flags.make
 CMakeFiles/c.dir/main.c.obj: CMakeFiles/c.dir/flags.make
 CMakeFiles/c.dir/main.c.obj: ../main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project\c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c.dir/main.c.obj"
-	D:\jar\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c.dir\main.c.obj -c D:\project\c\main.c
+	D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c.dir\main.c.obj -c D:\project\c\main.c
 
 CMakeFiles/c.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c.dir/main.c.i"
-	D:\jar\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\c\main.c > CMakeFiles\c.dir\main.c.i
+	D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\c\main.c > CMakeFiles\c.dir\main.c.i
 
 CMakeFiles/c.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c.dir/main.c.s"
-	D:\jar\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\c\main.c -o CMakeFiles\c.dir\main.c.s
+	D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\c\main.c -o CMakeFiles\c.dir\main.c.s
 
 CMakeFiles/c.dir/test01.c.obj: CMakeFiles/c.dir/flags.make
 CMakeFiles/c.dir/test01.c.obj: ../test01.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project\c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c.dir/test01.c.obj"
-	D:\jar\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c.dir\test01.c.obj -c D:\project\c\test01.c
+	D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c.dir\test01.c.obj -c D:\project\c\test01.c
 
 CMakeFiles/c.dir/test01.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c.dir/test01.c.i"
-	D:\jar\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\c\test01.c > CMakeFiles\c.dir\test01.c.i
+	D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\c\test01.c > CMakeFiles\c.dir\test01.c.i
 
 CMakeFiles/c.dir/test01.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c.dir/test01.c.s"
-	D:\jar\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\c\test01.c -o CMakeFiles\c.dir\test01.c.s
+	D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\c\test01.c -o CMakeFiles\c.dir\test01.c.s
+
+CMakeFiles/c.dir/hello/datastructure/QuickSort.c.obj: CMakeFiles/c.dir/flags.make
+CMakeFiles/c.dir/hello/datastructure/QuickSort.c.obj: ../hello/datastructure/QuickSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project\c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/c.dir/hello/datastructure/QuickSort.c.obj"
+	D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c.dir\hello\datastructure\QuickSort.c.obj -c D:\project\c\hello\datastructure\QuickSort.c
+
+CMakeFiles/c.dir/hello/datastructure/QuickSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c.dir/hello/datastructure/QuickSort.c.i"
+	D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\c\hello\datastructure\QuickSort.c > CMakeFiles\c.dir\hello\datastructure\QuickSort.c.i
+
+CMakeFiles/c.dir/hello/datastructure/QuickSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c.dir/hello/datastructure/QuickSort.c.s"
+	D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\c\hello\datastructure\QuickSort.c -o CMakeFiles\c.dir\hello\datastructure\QuickSort.c.s
+
+CMakeFiles/c.dir/hello/datastructure/BinarySearch.c.obj: CMakeFiles/c.dir/flags.make
+CMakeFiles/c.dir/hello/datastructure/BinarySearch.c.obj: ../hello/datastructure/BinarySearch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project\c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/c.dir/hello/datastructure/BinarySearch.c.obj"
+	D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c.dir\hello\datastructure\BinarySearch.c.obj -c D:\project\c\hello\datastructure\BinarySearch.c
+
+CMakeFiles/c.dir/hello/datastructure/BinarySearch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c.dir/hello/datastructure/BinarySearch.c.i"
+	D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\c\hello\datastructure\BinarySearch.c > CMakeFiles\c.dir\hello\datastructure\BinarySearch.c.i
+
+CMakeFiles/c.dir/hello/datastructure/BinarySearch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c.dir/hello/datastructure/BinarySearch.c.s"
+	D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\c\hello\datastructure\BinarySearch.c -o CMakeFiles\c.dir\hello\datastructure\BinarySearch.c.s
 
 # Object files for target c
 c_OBJECTS = \
 "CMakeFiles/c.dir/main.c.obj" \
-"CMakeFiles/c.dir/test01.c.obj"
+"CMakeFiles/c.dir/test01.c.obj" \
+"CMakeFiles/c.dir/hello/datastructure/QuickSort.c.obj" \
+"CMakeFiles/c.dir/hello/datastructure/BinarySearch.c.obj"
 
 # External object files for target c
 c_EXTERNAL_OBJECTS =
 
 c.exe: CMakeFiles/c.dir/main.c.obj
 c.exe: CMakeFiles/c.dir/test01.c.obj
+c.exe: CMakeFiles/c.dir/hello/datastructure/QuickSort.c.obj
+c.exe: CMakeFiles/c.dir/hello/datastructure/BinarySearch.c.obj
 c.exe: CMakeFiles/c.dir/build.make
 c.exe: CMakeFiles/c.dir/linklibs.rsp
 c.exe: CMakeFiles/c.dir/objects1.rsp
 c.exe: CMakeFiles/c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\project\c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable c.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\project\c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable c.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\c.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
