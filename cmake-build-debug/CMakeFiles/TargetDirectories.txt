@@ -1,7 +1,0 @@
-D:/project/c/cmake-build-debug/CMakeFiles/c.dir
-D:/project/c/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/project/c/cmake-build-debug/CMakeFiles/main.dir
-D:/project/c/cmake-build-debug/CMakeFiles/base.dir
-D:/project/c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/project/c/cmake-build-debug/CMakeFiles/t2018-28.dir
-D:/project/c/cmake-build-debug/CMakeFiles/linkedList2.dir
